@@ -49,7 +49,6 @@ class ThreadExample extends Thread{
 object Threadtest1 {
   def main(args: Array[String]): Unit = {
     var t1 = new ThreadExample()
-//    t1.task()
     var t2 = new ThreadExample()
     t1.setName("Thread_1")
     t2.setName("Thread_2")
